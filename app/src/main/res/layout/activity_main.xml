@@ -20,6 +20,13 @@
         android:id="@+id/am_btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="OK"
         android:onClick="doMagic"/>
+
+    <Button
+        android:id="@+id/am_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOT"
+        android:onClick="doMagic2"/>
 </LinearLayout>
